@@ -1,0 +1,56 @@
+/* myassign.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light grey background */
+    color: #333; /* Dark grey text */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #007bff; /* Bright blue for headings */
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+h2, h3, h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+p, li, a {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 0.25em;
+}
+
+a {
+    color: #d63384; /* Bright pink for links */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Specific to the email and social media links for better distinction */
+a[href^="mailto:"] {
+    color: #28a745; /* Green for email links */
+}
+
+a[href^="https://x.com/"], a[href^="https://www.instagram.com/"] {
+    color: #17a2b8; /* Light blue for social media links */
+}
+
+a[href^="https://x.com/"]:hover, a[href^="https://www.instagram.com/"]:hover {
+    color: #0056b3; /* Darker blue on hover for social media links */
+}
